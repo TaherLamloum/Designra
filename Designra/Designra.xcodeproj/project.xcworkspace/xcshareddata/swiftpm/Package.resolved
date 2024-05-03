@@ -1,0 +1,24 @@
+{
+  "originHash" : "ada8a7e860671662811cc3fb2bfa889b344ee32a9187faa6bf1ef4fe33a181ff",
+  "pins" : [
+    {
+      "identity" : "molh",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MoathOthman/MOLH",
+      "state" : {
+        "revision" : "c78502b5a5e9d5add901c2c6de546d6b320e7b73",
+        "version" : "1.4.3"
+      }
+    },
+    {
+      "identity" : "swiftmessages",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftKickMobile/SwiftMessages",
+      "state" : {
+        "revision" : "62e12e138fc3eedf88c7553dd5d98712aa119f40",
+        "version" : "9.0.9"
+      }
+    }
+  ],
+  "version" : 3
+}

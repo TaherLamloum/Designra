@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Designra
+
+  Created by taher elnehr on 04/05/2024.
+  
+*/
+"fontLight"="Cairo-Light";
+"fontRegular"="Cairo-Regular";
+"fontBold"="Cairo-Bold";
+"fontSemiBold"="Cairo-SemiBold";
+"fontBlack"="Cairo-Black";
