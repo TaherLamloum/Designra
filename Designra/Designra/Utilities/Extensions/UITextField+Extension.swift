@@ -19,7 +19,7 @@ extension UITextField {
         self.borderStyle = .none
         
         if(text == ""){
-            self.attributedPlaceholder = NSAttributedString(string: placeholder.rawValue.localized, attributes: [NSAttributedString.Key.foregroundColor: UIColor(hexString: Colors.CA3ADBE.rawValue)])/////
+            self.attributedPlaceholder = NSAttributedString(string: placeholder.rawValue.localized, attributes: [NSAttributedString.Key.foregroundColor: UIColor(hexString: Colors.C1F293A.rawValue)])/////
             self.placeholder = placeholder.rawValue.localized
         }
         self.placeholder = placeholder.rawValue.localized

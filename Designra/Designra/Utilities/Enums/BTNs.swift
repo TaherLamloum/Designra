@@ -10,10 +10,10 @@ import Foundation
 
 // MARK: - BTNs Enum
 enum BTNs: String {
-    case FORGET_PASSWORD = "forgetPasswordBtn"
-    case LOGIN = "loginBtn"
-    case NEW_SALON = "newSalonBtn"
-    case REGISTER = "registerBtn"
+    case START_NOW = "startNowBtn"
+    case SIGNIN = "signinBtn"
+    case SIGNUP = "signupBtn"
+
     
 
 }

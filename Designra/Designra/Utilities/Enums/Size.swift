@@ -33,6 +33,8 @@ enum Size: Int {
     case size_28 = 28
     case size_40 = 40
     case size_48 = 48
+    case size_38 = 38
+    case size_39 = 39
     
     var xFactor: CGFloat {
         return CGFloat(self.rawValue)*iPhoneXFactor

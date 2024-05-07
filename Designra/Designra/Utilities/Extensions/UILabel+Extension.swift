@@ -9,7 +9,7 @@ import UIKit
 
 extension UILabel {
         
-    func customLabel(color: Colors, size: Size, font: Fonts, text: String = "", direction: Direction = .Normal, nOlines: Int = 1) {
+    func customLabel(size: Size, font: Fonts, text: String = "", direction: Direction = .Normal, nOlines: Int = 1) {
         let size = iPhoneXFactor*(CGFloat(size.rawValue))
         switch direction {
         case .Left: self.textAlignment = ((isEnglish()) ? .left : .left)
@@ -19,7 +19,6 @@ extension UILabel {
             
         }
         self.font = UIFont(name: font.rawValue.localized, size: size)
-        self.textColor = UIColor(hexString: color.rawValue)
         self.text = text
     }
 }

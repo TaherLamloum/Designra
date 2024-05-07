@@ -10,3 +10,20 @@
 "fontBold"="Cairo-Bold";
 "fontSemiBold"="Cairo-SemiBold";
 "fontBlack"="Cairo-Black";
+
+
+// LBLS
+"introTitleLbl"="تعلم من المنزل !";
+"introDetailsLbl"="بكفاءه وفعاليه";
+"startLbl"="لنبدأ !";
+"accountLbl"="ليس لديك حساب ؟";
+
+//BTNS
+"startNowBtn"="ابدأ الان";
+"signinBtn"="تسجيل الدخول";
+"signupBtn"="التسجيل";
+
+
+//TXT
+"emailTF"="الايميل";
+"passwordTxtField"="كلمة المرور";

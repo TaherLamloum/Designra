@@ -42,6 +42,10 @@
 		1E8A58C42BE594470026B458 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A58C32BE594470026B458 /* Helper.swift */; };
 		1E8A58CD2BE5964C0026B458 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 1E8A58CC2BE5964C0026B458 /* SwiftMessages */; };
 		1E8A58CF2BE5964C0026B458 /* SwiftMessages-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 1E8A58CE2BE5964C0026B458 /* SwiftMessages-Dynamic */; };
+		1E8A58DA2BEAB9330026B458 /* PremiumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8A58D92BEAB9330026B458 /* PremiumVC.xib */; };
+		1E8A58DB2BEAB9330026B458 /* PremiumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A58D82BEAB9330026B458 /* PremiumVC.swift */; };
+		1E8A58DE2BEAB9C60026B458 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8A58DC2BEAB9C60026B458 /* LoginVC.xib */; };
+		1E8A58DF2BEAB9C60026B458 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A58DD2BEAB9C60026B458 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +85,10 @@
 		1E8A58BB2BE592CB0026B458 /* Lbls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lbls.swift; sourceTree = "<group>"; };
 		1E8A58BD2BE593010026B458 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1E8A58C32BE594470026B458 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1E8A58D82BEAB9330026B458 /* PremiumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumVC.swift; sourceTree = "<group>"; };
+		1E8A58D92BEAB9330026B458 /* PremiumVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PremiumVC.xib; sourceTree = "<group>"; };
+		1E8A58DC2BEAB9C60026B458 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		1E8A58DD2BEAB9C60026B458 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +137,8 @@
 		1E8A58792BE1A36A0026B458 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1E8A58D72BEAB9080026B458 /* Premium */,
+				1E8A58D02BE59EBA0026B458 /* Loginfff */,
 				1E8A587A2BE1A3870026B458 /* Intro */,
 			);
 			path = Scenes;
@@ -225,6 +235,24 @@
 			path = CommonHelper;
 			sourceTree = "<group>";
 		};
+		1E8A58D02BE59EBA0026B458 /* Loginfff */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A58DD2BEAB9C60026B458 /* LoginVC.swift */,
+				1E8A58DC2BEAB9C60026B458 /* LoginVC.xib */,
+			);
+			path = Loginfff;
+			sourceTree = "<group>";
+		};
+		1E8A58D72BEAB9080026B458 /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A58D82BEAB9330026B458 /* PremiumVC.swift */,
+				1E8A58D92BEAB9330026B458 /* PremiumVC.xib */,
+			);
+			path = Premium;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,11 +321,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8A58DA2BEAB9330026B458 /* PremiumVC.xib in Resources */,
 				1E8A58912BE58DD00026B458 /* Cairo-SemiBold.ttf in Resources */,
 				1E8A586F2BE1A29A0026B458 /* Assets.xcassets in Resources */,
 				1E8A58822BE58AA50026B458 /* Colors.xcassets in Resources */,
 				1E8A588E2BE58DD00026B458 /* AftikaRegular.ttf in Resources */,
 				1E8A58942BE58DD00026B458 /* Cairo-Black.ttf in Resources */,
+				1E8A58DE2BEAB9C60026B458 /* LoginVC.xib in Resources */,
 				1E8A58932BE58DD00026B458 /* Cairo-Regular.ttf in Resources */,
 				1E8A58962BE58DD00026B458 /* Aftika-Light.ttf in Resources */,
 				1E8A58722BE1A29A0026B458 /* Base in Resources */,
@@ -318,8 +348,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8A58DB2BEAB9330026B458 /* PremiumVC.swift in Sources */,
 				1E8A58B42BE592520026B458 /* Size.swift in Sources */,
 				1E8A58A62BE5915F0026B458 /* String+Extensions.swift in Sources */,
+				1E8A58DF2BEAB9C60026B458 /* LoginVC.swift in Sources */,
 				1E8A58AC2BE591B00026B458 /* UIButton+Extensions.swift in Sources */,
 				1E8A58BC2BE592CB0026B458 /* Lbls.swift in Sources */,
 				1E8A58B02BE591FB0026B458 /* UITableView+Extension.swift in Sources */,

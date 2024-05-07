@@ -23,7 +23,8 @@ extension AppDelegate{
     func initApp(){
         window = UIWindow(frame: UIScreen.main.bounds)
         let vc = IntroVC()
-        window?.rootViewController = vc
+        let nav = UINavigationController(rootViewController: vc)
+        window?.rootViewController = nav
         window?.makeKeyAndVisible()
         
     }

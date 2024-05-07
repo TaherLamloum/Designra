@@ -9,17 +9,11 @@ import Foundation
 
 
 enum Lbls: String{
-    case LOGIN_NOW = "loginNowLbl"
-    case SALON = "salonLbl"
-    case ASSISTANT = "assistantLbl"
-    case MOBILE_NUMBER = "mobileNumberLbl"
-    case PASSWORD = "passwordLbl"
-    case NEW_SALON = "newSalonLbl"
-    case SALON_NAME = "salonNameLbl"
-    case CITY_NAME = "cityNameLbl"
-    case SALON_ADDRESS = "salonAddressLbl"
-    case LANGUAGE = "languageLbl"
-    case TERMA_AND_CONDITIONS = "termsAndConditionsLbl"
+    case INTRO_TITLE = "introTitleLbl"
+    case INTRO_DETAILS = "introDetailsLbl"
+    case START = "startLbl"
+    case ACCOUNT = "accountLbl"
+   
     
     var title: String {
         return self.rawValue.localized

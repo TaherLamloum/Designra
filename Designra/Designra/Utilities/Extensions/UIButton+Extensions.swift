@@ -9,7 +9,7 @@ import UIKit
 
 extension UIButton{
     
-    func addUnderlineTitle(titleColor: Colors = .C000000, font: Fonts = .regular, size: Size = .size_18, title: BTNs){
+    func addUnderlineTitle(titleColor: Colors = .C1F293A, font: Fonts = .regular, size: Size = .size_18, title: BTNs){
         self.tintColor = titleColor.hex
         let size = iPhoneXFactor*(CGFloat(size.rawValue))
         let yourAttributes: [NSAttributedString.Key: Any] = [
@@ -23,8 +23,7 @@ extension UIButton{
              self.setAttributedTitle(attributeString, for: .normal)
     }
     
-    func custom(titleColor: Colors, font: Fonts = .regular, size: Size = .size_18, title: BTNs){
-        self.tintColor = titleColor.hex
+    func custom(font: Fonts = .regular, size: Size = .size_18, title: BTNs){
         let size = iPhoneXFactor*(CGFloat(size.rawValue))
         self.titleLabel?.font = UIFont(name: (font.rawValue.localized), size: size)
         self.setTitle(title.rawValue.localized, for: .normal)
