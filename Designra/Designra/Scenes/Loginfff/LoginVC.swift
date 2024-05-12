@@ -31,6 +31,11 @@ class LoginVC: UIViewController {
         seeBtn.setImage(UIImage(named: see ? "see" : "unSee"), for: .normal)
         passwordTxtField.isSecureTextEntry = !see
     }
+    
+    @IBAction func signinBtnClicked(_ sender: Any) {
+        let vc = PremiumVC()
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
 extension LoginVC{
     func initUI(){

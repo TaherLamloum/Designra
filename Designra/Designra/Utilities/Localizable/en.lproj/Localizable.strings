@@ -17,12 +17,16 @@
 "introDetailsLbl"="efficiently and effectively";
 "startLbl"="lets start!";
 "accountLbl"="Don't have an account?";
+"titleLbl"="Get Unlimited Access !";
+"packageYearlyLbl"="Yearly";
+"packageMonthlyLbl"="Monthly";
 
 
 //BTNS
 "startNowBtn"="Start Now";
 "signinBtn"="Sign in";
 "signupBtn"="Sign up";
+"goPremiumBtn"="Go Premium";
 
 //TXT
 "emailTF"="Email";

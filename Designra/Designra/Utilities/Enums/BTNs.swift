@@ -13,7 +13,7 @@ enum BTNs: String {
     case START_NOW = "startNowBtn"
     case SIGNIN = "signinBtn"
     case SIGNUP = "signupBtn"
-
+   case GOPREMIUM = "goPremiumBtn"
     
 
 }

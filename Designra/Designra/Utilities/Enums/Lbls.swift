@@ -13,6 +13,9 @@ enum Lbls: String{
     case INTRO_DETAILS = "introDetailsLbl"
     case START = "startLbl"
     case ACCOUNT = "accountLbl"
+    case UNLIMITED_ACCESS = "titleLbl"
+    case MONTHLY = "packageMonthlyLbl"
+    case YEARLY = "packageYearlyLbl"
    
     
     var title: String {

@@ -102,6 +102,9 @@
                     <state key="normal">
                         <color key="titleColor" name="TitleBtn"/>
                     </state>
+                    <connections>
+                        <action selector="signinBtnClicked:" destination="-1" eventType="touchUpInside" id="JRq-um-7sO"/>
+                    </connections>
                 </button>
                 <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="IUq-cm-zxz">
                     <rect key="frame" x="158.33333333333334" y="733" width="76.333333333333343" height="30"/>

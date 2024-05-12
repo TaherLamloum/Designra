@@ -17,11 +17,15 @@
 "introDetailsLbl"="بكفاءه وفعاليه";
 "startLbl"="لنبدأ !";
 "accountLbl"="ليس لديك حساب ؟";
+"titleLbl"="احصل علي اشتراك مفتوح !";
+"packageYearlyLbl"="سنويا";
+"packageMonthlyLbl"="شهريا";
 
 //BTNS
 "startNowBtn"="ابدأ الان";
 "signinBtn"="تسجيل الدخول";
 "signupBtn"="التسجيل";
+"goPremiumBtn"="البريميوم";
 
 
 //TXT
