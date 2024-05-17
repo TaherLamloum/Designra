@@ -14,5 +14,6 @@ enum TxtFields: String, CaseIterable {
     case EMAIL = "emailTF"
     case NAME = "nameTF"
     case PASSWORD = "passwordTxtField"
+    case SEARCH = "searchTxtField"
 
 }

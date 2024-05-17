@@ -11,9 +11,9 @@ import MOLH
 
 extension UITextField {
     
-    func customTxtField(color: Colors, size: Size, font: Fonts, placeholder: TxtFields = .NONE, text: String? = "", isPassword: Bool = false, isCenter: Bool = false) {
+    func customTxtField(size: Size, font: Fonts, placeholder: TxtFields = .NONE, text: String? = "", isPassword: Bool = false, isCenter: Bool = false) {
         
-        self.textColor = UIColor(hexString: color.rawValue)
+//          self.textColor = UIColor(hexString: color.rawValue)
         let size = iPhoneXFactor*(CGFloat(size.rawValue))
         self.font = UIFont(name: (font.rawValue.localized), size: size)
         self.borderStyle = .none

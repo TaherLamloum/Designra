@@ -31,3 +31,4 @@
 //TXT
 "emailTF"="Email";
 "passwordTxtField"="Password";
+"searchTxtField"="search";

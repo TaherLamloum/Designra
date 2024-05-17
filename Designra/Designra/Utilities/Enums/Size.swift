@@ -31,6 +31,7 @@ enum Size: Int {
     case size_26 = 26
     case size_27 = 27
     case size_28 = 28
+    case size_32 = 32
     case size_40 = 40
     case size_48 = 48
     case size_38 = 38

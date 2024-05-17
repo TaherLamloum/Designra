@@ -32,6 +32,10 @@ class PremiumVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func goPremiumBtnClicked(_ sender: Any) {
+        let vc = MainTabBar()
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
 extension PremiumVC{
     func initUI(){
@@ -43,7 +47,7 @@ extension PremiumVC{
             view.addRadius(radius: 12)
         }
         goPremiumBtn.custom(font: .semiBold, size: .size_18, title: BTNs.GOPREMIUM)
-        titleLbl.customLabel(size: .size_38, font: .regular, text: Lbls.UNLIMITED_ACCESS.title, direction: .Center)
+        titleLbl.customLabel(size: .size_32, font: .regular, text: Lbls.UNLIMITED_ACCESS.title, direction: .Center)
         packageYearlyLbl.customLabel(size: .size_10, font: .regular, text: Lbls.YEARLY.title)
         packageMonthlyLbl.customLabel(size: .size_10, font: .regular, text: Lbls.MONTHLY.title)
         mainMonthlyLbl.customLabel(size: .size_24, font: .semiBold, text: "$ 11.99")
